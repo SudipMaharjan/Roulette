@@ -121,55 +121,55 @@ void Roulette::calculateTotalCoins(int winner){
     int coinsWon = 0;
 
     if(ui->BettedNumber->text() == ui->winningNumber->text()){
-        coinsWon = 35 * bettedCoins;
+        coinsWon = bettedCoins + 35 * bettedCoins;
         hasWon = true;
     }
     else if(ui->BettedNumber->text() == "1st Row" && isIN1stRow(winner)){
-        coinsWon = 2 * bettedCoins;
+        coinsWon = bettedCoins + 2 * bettedCoins;
         hasWon = true;
     }
     else if(ui->BettedNumber->text() == "2nd Row" && isIN2ndRow(winner)){
-        coinsWon = 2 * bettedCoins;
+        coinsWon = bettedCoins + 2 * bettedCoins;
         hasWon = true;
     }
     else if(ui->BettedNumber->text() == "3rd Row" && isIN3rdRow(winner)){
-        coinsWon = 2 * bettedCoins;
+        coinsWon = bettedCoins + 2 * bettedCoins;
         hasWon = true;
     }
     else if(ui->BettedNumber->text() == "1st 12" && isBetween1st12(winner)){
-        coinsWon = 2 * bettedCoins;
+        coinsWon = bettedCoins + 2 * bettedCoins;
         hasWon = true;
     }
     else if(ui->BettedNumber->text() == "2nd 12" && isBetween2nd12(winner)){
-        coinsWon = 2 * bettedCoins;
+        coinsWon = bettedCoins + 2 * bettedCoins;
         hasWon = true;
     }
     else if(ui->BettedNumber->text() == "3rd 12" && isBetween3rd12(winner)){
-        coinsWon = 2 * bettedCoins;
+        coinsWon = bettedCoins + 2 * bettedCoins;
         hasWon = true;
     }
     else if(ui->BettedNumber->text() == "1 to 18" && isBetween1And18(winner)){
-        coinsWon = bettedCoins;
+        coinsWon = bettedCoins + bettedCoins;
         hasWon = true;
     }
     else if(ui->BettedNumber->text() == "19 to 36" && isBetween19And36(winner)){
-        coinsWon = bettedCoins;
+        coinsWon = bettedCoins + bettedCoins;
         hasWon = true;
     }
     else if(ui->BettedNumber->text() == "EVEN" && isEven(winner)){
-        coinsWon = bettedCoins;
+        coinsWon = bettedCoins + bettedCoins;
         hasWon = true;
     }
     else if(ui->BettedNumber->text() == "ODD" && isOdd(winner)){
-        coinsWon = bettedCoins;
+        coinsWon = bettedCoins + bettedCoins;
         hasWon = true;
     }
     else if(ui->BettedNumber->text() == "RED" && isRed(winner)){
-        coinsWon = bettedCoins;
+        coinsWon = bettedCoins + bettedCoins;
         hasWon = true;
     }
     else if(ui->BettedNumber->text() == "BLACK" && isBlack(winner)){
-        coinsWon = bettedCoins;
+        coinsWon = bettedCoins + bettedCoins;
         hasWon = true;
     }
     else{
