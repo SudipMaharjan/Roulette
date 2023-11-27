@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HowTOPlay</class>
+ <widget class="QWidget" name="HowTOPlay">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>930</width>
+    <height>762</height>
+   </rect>
+  </property>
+  <property name="tabletTracking">
+   <bool>false</bool>
+  </property>
+  <property name="acceptDrops">
+   <bool>true</bool>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>true</bool>
+  </property>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>931</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 600 14pt &quot;Segoe UI Semibold&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(124, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>How To Play</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>60</y>
+     <width>931</width>
+     <height>701</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 600 14pt &quot;Segoe UI Semibold&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 81, 0);</string>
+   </property>
+   <property name="text">
+    <string>Placing Bets:
+Players place bets on a particular number, color, or category of numbers on the betting table.
+Betting options include individual numbers, groups of numbers, red/black, odd/even, and more.
+
+The Wheel Spin:
+The dealer spins the roulette wheel in one direction while releasing the ball in the opposite direction.
+
+Outcome:
+The winning number is displayed on the screen in which the ball lands after the wheel comes to a stop.
+Players who placed bets on the winning number, color, or category win according to the game's payout rules.
+
+Types of Bets:
+Straight/Single Bet:
+ Betting on a single number (35 x 1).
+
+Row Bet:
+ Betting on horizontal row of numbers (2 x 1).
+
+Column Bet:
+ Betting on a vertical column of numbers (2 x 1).
+
+Dozen Bet:
+ Betting on one of three groups of numbers (1-12, 13-24, 25-36)  (2 x 1).
+
+Even/Odd, Red/Black, High/Low, 1-18/19-36  :
+ Betting on larger groups of numbers (1 x 1).
+</string>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
